@@ -1,0 +1,218 @@
+{
+  "dishes": [
+    {
+      "id": "1",
+      "name": "Feijoada Completa",
+      "description": "A tradicional feijoada brasileira com carnes nobres, acompanhada de arroz, couve e farofa.",
+      "price": 45.5,
+      "category": "Prato Principal"
+    },
+    {
+      "id": "2",
+      "name": "Suco de Laranja Natural",
+      "description": "500ml de suco de laranja feito na hora.",
+      "price": 8,
+      "category": "Bebida"
+    },
+    {
+      "id": "3",
+      "name": "Pudim de Leite",
+      "description": "Pudim de leite condensado com calda de caramelo.",
+      "price": 12,
+      "category": "Sobremesa"
+    },
+    {
+      "id": "58d9",
+      "name": "Peixe",
+      "description": "Filé de Tilápia Simples",
+      "price": 30,
+      "category": "Prato Principal"
+    },
+    {
+      "id": "c1dc",
+      "name": "Coxinha de Frango",
+      "description": "Coxinha frita de frango empanada que todo brasileiro gosta",
+      "price": 10,
+      "category": "Acompanhamento"
+    },
+    {
+      "id": "556f",
+      "name": "Sei la",
+      "description": "descrição de sei la",
+      "price": 666.66,
+      "category": "Bebida"
+    }
+  ],
+  "orders": [
+    {
+      "id": "8b4b",
+      "customerName": "João Vitor Tomadon",
+      "phone": "44998819791",
+      "address": {
+        "street": "Rua Teixeira Mendes",
+        "neighborhood": "Uvaranas",
+        "city": "Ponta Grossa",
+        "state": "PR"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Feijoada Completa",
+          "description": "A tradicional feijoada brasileira com carnes nobres, acompanhada de arroz, couve e farofa.",
+          "price": 45.5,
+          "category": "Prato Principal"
+        },
+        {
+          "id": "2",
+          "name": "Suco de Laranja Natural",
+          "description": "500ml de suco de laranja feito na hora.",
+          "price": 8,
+          "category": "Bebida"
+        }
+      ],
+      "total": 53.5,
+      "createdAt": "2025-06-12T01:04:53.519Z",
+      "status": "Recebido"
+    },
+    {
+      "id": "03c1",
+      "customerName": "Tonon",
+      "phone": "132412412",
+      "address": {
+        "street": "Amazonas",
+        "neighborhood": "Centro",
+        "city": "Roncador",
+        "state": "PR"
+      },
+      "items": [
+        {
+          "id": "3",
+          "name": "Pudim de Leite",
+          "description": "Pudim de leite condensado com calda de caramelo.",
+          "price": 12,
+          "category": "Sobremesa"
+        }
+      ],
+      "total": 12,
+      "createdAt": "2025-06-12T01:05:42.423Z",
+      "status": "Concluído",
+      "completedAt": "2025-06-12T01:30:12.636Z"
+    },
+    {
+      "id": "d7b6",
+      "customerName": "Rosana Maria da Rosa",
+      "phone": "44999998881",
+      "address": {
+        "street": "Avenida General Carlos Cavalcanti",
+        "neighborhood": "Uvaranas",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "cep": "84030-900",
+        "number": "4748",
+        "complement": "bloco08 ap303"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Feijoada Completa",
+          "description": "A tradicional feijoada brasileira com carnes nobres, acompanhada de arroz, couve e farofa.",
+          "price": 45.5,
+          "category": "Prato Principal"
+        },
+        {
+          "id": "58d9",
+          "name": "Peixe",
+          "description": "Filé de Tilápia Simples",
+          "price": 30,
+          "category": "Prato Principal"
+        },
+        {
+          "id": "c1dc",
+          "name": "Coxinha de Frango",
+          "description": "Coxinha frita de frango empanada que todo brasileiro gosta",
+          "price": 10,
+          "category": "Acompanhamento"
+        }
+      ],
+      "total": 85.5,
+      "createdAt": "2025-06-12T01:29:54.540Z",
+      "status": "Recebido",
+      "completedAt": null
+    },
+    {
+      "id": "c266",
+      "customerName": "boca",
+      "phone": "7657658765",
+      "address": {
+        "street": "Rua Teixeira Mendes",
+        "neighborhood": "Uvaranas",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "cep": "84031000",
+        "number": "1441",
+        "complement": ""
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Feijoada Completa",
+          "description": "A tradicional feijoada brasileira com carnes nobres, acompanhada de arroz, couve e farofa.",
+          "price": 45.5,
+          "category": "Prato Principal"
+        },
+        {
+          "id": "58d9",
+          "name": "Peixe",
+          "description": "Filé de Tilápia Simples",
+          "price": 30,
+          "category": "Prato Principal"
+        },
+        {
+          "id": "2",
+          "name": "Suco de Laranja Natural",
+          "description": "500ml de suco de laranja feito na hora.",
+          "price": 8,
+          "category": "Bebida"
+        }
+      ],
+      "total": 83.5,
+      "createdAt": "2025-06-12T01:42:22.196Z",
+      "status": "Concluído",
+      "completedAt": "2025-06-12T01:43:14.231Z"
+    },
+    {
+      "id": "77de",
+      "customerName": "Ferrasa",
+      "phone": "329847239847",
+      "address": {
+        "street": "Rua Teixeira Mendes",
+        "neighborhood": "Uvaranas",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "cep": "84031000",
+        "number": "1441",
+        "complement": ""
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Feijoada Completa",
+          "description": "A tradicional feijoada brasileira com carnes nobres, acompanhada de arroz, couve e farofa.",
+          "price": 45.5,
+          "category": "Prato Principal"
+        },
+        {
+          "id": "58d9",
+          "name": "Peixe",
+          "description": "Filé de Tilápia Simples",
+          "price": 30,
+          "category": "Prato Principal"
+        }
+      ],
+      "total": 75.5,
+      "createdAt": "2025-06-12T13:16:57.181Z",
+      "status": "Concluído",
+      "completedAt": "2025-06-12T13:17:26.921Z"
+    }
+  ]
+}
